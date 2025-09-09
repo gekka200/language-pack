@@ -22,10 +22,10 @@
     <item>1</item>
   </string-array>
   <string name="difficulty_algorithm_title">难度算法</string>
-  <string name="difficulty_algorithm_summary">选择用于计算难度星级和 PP 的算法</string>
+  <string name="difficulty_algorithm_summary">选择一个用于计算难度星级和 PP 的算法</string>
   <string-array name="difficulty_algorithm_names">
-    <item>osu!droid</item>
-    <item>osu!standard</item>
+    <item>droid算法</item>
+    <item>PC算法</item>
   </string-array>
   <string-array name="difficulty_algorithm_values">
     <item>0</item>
@@ -52,11 +52,11 @@
   <string name="opt_config_backup_title">导出配置文件</string>
   <string name="opt_config_backup_summary">将普通游戏选项导出到 osu!droid 根目录文件夹下的 osudroid.cfg 文件内</string>
   <string name="opt_config_backup_restore_title">导入配置文件</string>
-  <string name="opt_config_backup_restore_summary">将 osu!droid 根目录文件夹下的 osudroid.cfg 文件记录的普通游戏选项导入至游戏</string>
+  <string name="opt_config_backup_restore_summary">将 osu!droid 根目录文件夹下的 osudroid.cfg 文件所记录的普通游戏选项导入至游戏</string>
   <!-- Gameplay -->
   <!-- Skin -->
   <string name="opt_category_skin">皮肤</string>
-  <string name="opt_skinpath_title">选择一个皮肤</string>
+  <string name="opt_skinpath_title">选择皮肤</string>
   <string name="opt_skinpath_summary">从主皮肤目录里选择一个皮肤</string>
   <string name="opt_spinner_style_title">转盘样式</string>
   <string name="opt_spinner_style_summary">改变转盘的样式</string>
@@ -78,21 +78,21 @@
   <string name="opt_category_background">背景</string>
   <string name="opt_bgbrightness_title">背景亮度</string>
   <string name="opt_bgbrightness_summary">背景图片的亮度</string>
-  <string name="opt_keep_background_aspect_ratio_title">保持背景图比例</string>
-  <string name="opt_keep_background_aspect_ratio_summary">开启后，游戏中背景图和故事板将不会填充至屏幕边界</string>
-  <string name="opt_enableStoryboard_title">故事板 (storyboard)</string>
+  <string name="opt_keep_background_aspect_ratio_title">固定背景图片宽高比</string>
+  <string name="opt_keep_background_aspect_ratio_summary">开启后，游玩时显示的背景图片及故事板的宽高比将不填满整个画面</string>
+  <string name="opt_enableStoryboard_title">故事板 (Storyboard)</string>
   <string name="opt_video_title">背景视频</string>
   <string name="opt_video_summary">在游玩谱面时显示视频，仅支持 3gp、mp4、mkv 和 webm 视频格式</string>
   <!-- HUD -->
   <string name="opt_category_hud">游玩元素</string>
   <string name="opt_hudEditor_title">皮肤元素编辑器</string>
   <string name="opt_hudEditor_summary">按你的喜好编辑各类皮肤元素</string>
-  <string name="opt_hide_ingame_ui_title">隐藏游玩元素</string>
-  <string name="opt_hide_ingame_ui_summary">在游玩时隐藏分数和元素</string>
+  <string name="opt_hide_ingame_ui_title">隐藏游戏界面</string>
+  <string name="opt_hide_ingame_ui_summary">在游玩时隐藏分数、血条以及连击数</string>
   <string name="opt_hide_replay_marquee_title">隐藏回放滚动横幅</string>
   <string name="opt_hide_replay_marquee_summary">观看回放时隐藏滚动横幅</string>
   <string name="opt_fps_title">显示帧数</string>
-  <string name="opt_fps_summary">显示游戏时的帧数</string>
+  <string name="opt_fps_summary">游玩时显示帧数</string>
   <string name="opt_display_score_statistics_title">显示成绩统计数据</string>
   <string name="opt_display_score_statistics_summary">在成绩界面显示成绩统计数据，如星级、PP 等</string>
   <!-- Combo Colors-->
@@ -102,12 +102,12 @@
   <string name="opt_category_playfield">游玩区域</string>
   <string name="opt_setplayfield_title">调整游玩区域大小</string>
   <string name="opt_setplayfield_summary">调整游玩区域大小</string>
-  <string name="opt_display_playfield_border_title">Display playfield border</string>
-  <string name="opt_display_playfield_border_summary">Displays a border around the playfield</string>
-  <string name="opt_playfieldHorizontalPosition_title">Horizontal position</string>
-  <string name="opt_playfieldHorizontalPosition_summary">Set the horizontal position (in percentage) of the playfield from the left corner of the screen</string>
-  <string name="opt_playfieldVerticalPosition_title">Vertical position</string>
-  <string name="opt_playfieldVerticalPosition_summary">Set the vertical position (in percentage) of the playfield from the top of the screen</string>
+  <string name="opt_display_playfield_border_title">显示游玩区域边框</string>
+  <string name="opt_display_playfield_border_summary">在游玩区域显示一个包围起来的边框</string>
+  <string name="opt_playfieldHorizontalPosition_title">水平位置</string>
+  <string name="opt_playfieldHorizontalPosition_summary">设置游玩区域的水平位置，数字越小越往左调整，反之往右</string>
+  <string name="opt_playfieldVerticalPosition_title">垂直位置</string>
+  <string name="opt_playfieldVerticalPosition_summary">设置游玩区域的垂直位置，数字越小越往上调整，反之往下</string>
   <!-- Graphics -->
   <!-- Cursor -->
   <string name="opt_category_cursor">光标</string>
@@ -124,7 +124,7 @@
   <string name="opt_combo_burst_title">连击特效</string>
   <string name="opt_combo_burst_summary">开启关闭连击特效（轻微影响性能）</string>
   <string name="opt_largeimages_title">倒计时</string>
-  <string name="opt_largeimages_summary">可在游玩设置了倒计时的谱面时开始倒数</string>
+  <string name="opt_largeimages_summary">可用时在击打第一个物件前开始倒数</string>
   <string name="opt_animate_follow_circle_title">滑条跟随圆圈动画</string>
   <string name="opt_animate_follow_circle_summary">按住、松开滑条时显示滑条跟随圆圈动画</string>
   <string name="opt_animate_combo_text_title">连击数缩放动画</string>
@@ -154,8 +154,8 @@
   <string name="opt_category_offset">延时</string>
   <string name="opt_offset_title">全局延时</string>
   <string name="opt_offset_summary">毫秒计音乐延时（负值则为提前）</string>
-  <string name="opt_gameAudioSynchronizationThreshold_title">Minimum Synchronization Limit</string>
-  <string name="opt_gameAudioSynchronizationThreshold_summary">The minimum time difference (in milliseconds) between gameplay and audio for gameplay to attempt to synchronize with audio.\n\nA lower limit increases the frequency of the syncing attempt. If constant offset is preferred, use a higher limit.</string>
+  <string name="opt_gameAudioSynchronizationThreshold_title">最小同步频率限制数</string>
+  <string name="opt_gameAudioSynchronizationThreshold_summary">游戏与音频之间的最小时间差（以毫秒为单位），在此范围内游戏会尝试与音频同步\n\n数值越低，则游戏会增加尝试同步的频率。数值越高，则会保持固定延时。（默认20）</string>
   <!-- Metronome -->
   <string name="opt_category_metronome">节拍器</string>
   <string name="opt_metronome_switch_title">节拍器</string>
@@ -184,11 +184,11 @@
   <!-- Import -->
   <string name="opt_category_import">导入</string>
   <string name="opt_deleteosz_title">删除 osz 文件</string>
-  <string name="opt_deleteosz_summary">在载入后删除 osz 文件</string>
+  <string name="opt_deleteosz_summary">在导入后删除 osz 文件</string>
   <string name="opt_scandownload_title">扫描系统下载路径</string>
-  <string name="opt_scandownload_summary">扫描系统下载路径（Download 文件夹）里的新铺面</string>
+  <string name="opt_scandownload_summary">扫描系统下载路径（Download 文件夹）里的新谱面</string>
   <string name="opt_deleteUnimportedBeatmaps_title">删除未导入的谱面</string>
-  <string name="opt_deleteUnimportedBeatmaps_summary">删除无法导入的谱面，将在未来的谱面导入操作中应用</string>
+  <string name="opt_deleteUnimportedBeatmaps_summary">删除未导入的谱面，将在下一次的谱面导入操作中生效</string>
   <string name="opt_delete_unsupported_videos_title">删除不支持的视频</string>
   <string name="opt_delete_unsupported_videos_summary">删除格式不受支持的视频（avi 和 flv）</string>
   <string name="opt_import_replay_title">导入回放</string>
@@ -206,8 +206,8 @@
   <!-- Input -->
   <!-- Gameplay -->
   <string name="opt_category_gameplay">游戏玩法</string>
-  <string name="block_area_preference_title">Manage input block areas</string>
-  <string name="block_area_preference_summary">Manage specific areas within the screen where presses will be ignored during gameplay</string>
+  <string name="block_area_preference_title">管理输入屏蔽区域</string>
+  <string name="block_area_preference_summary">管理游玩过程中屏幕内将被屏蔽输入的特定区域</string>
   <string name="opt_remove_sliderlock_spinnerlock_title">移除滑条锁和转盘锁（不计入排名）</string>
   <string name="opt_remove_sliderlock_spinnerlock_summary">尝试移除滑条锁和转盘锁，现在可以游玩 2B 风格</string>
   <string name="opt_backButtonPressTime_title">退出按钮按压延迟</string>
@@ -222,7 +222,7 @@
   <!-- Directories -->
   <string name="opt_category_directories">文件夹</string>
   <string name="opt_corepath_title">主文件夹</string>
-  <string name="opt_corepath_summary">点击修改 osu 主文件夹</string>
+  <string name="opt_corepath_summary">点击修改 osu!droid 主文件夹</string>
   <string name="opt_skin_top_path_title">主皮肤目录</string>
   <string name="opt_skin_top_path_summary">存储各种皮肤的文件夹（默认: /sdcard/osu!droid/Skin）</string>
   <string name="opt_directory_title">地图存储位置</string>
